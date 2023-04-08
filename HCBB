@@ -1,0 +1,1286 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local hcbb = Instance.new("ScreenGui")
+local OpenH = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local PenumbraShadow = Instance.new("ImageLabel")
+local UmbraShadow = Instance.new("ImageLabel")
+local AmbientShadow = Instance.new("ImageLabel")
+local MainFrame = Instance.new("Frame")
+local AmbientShadow_2 = Instance.new("ImageLabel")
+local PenumbraShadow_2 = Instance.new("ImageLabel")
+local UmbraShadow_2 = Instance.new("ImageLabel")
+local Shop = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local VIPGamepass = Instance.new("TextButton")
+local AmbientShadow_3 = Instance.new("ImageLabel")
+local PenumbraShadow_3 = Instance.new("ImageLabel")
+local UmbraShadow_3 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Price = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UIGradient_5 = Instance.new("UIGradient")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Gamepass = Instance.new("TextButton")
+local AmbientShadow_4 = Instance.new("ImageLabel")
+local PenumbraShadow_4 = Instance.new("ImageLabel")
+local UmbraShadow_4 = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Price_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local Gamepass_2 = Instance.new("TextButton")
+local AmbientShadow_5 = Instance.new("ImageLabel")
+local PenumbraShadow_5 = Instance.new("ImageLabel")
+local UmbraShadow_5 = Instance.new("ImageLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Price_3 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local VIPGamepass_2 = Instance.new("TextButton")
+local AmbientShadow_6 = Instance.new("ImageLabel")
+local PenumbraShadow_6 = Instance.new("ImageLabel")
+local UmbraShadow_6 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Price_4 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local UIGradient_14 = Instance.new("UIGradient")
+local TextLabel_10 = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local shadow = Instance.new("ImageLabel")
+local MainFrame_2 = Instance.new("Frame")
+local UIGradient_15 = Instance.new("UIGradient")
+local shadow_2 = Instance.new("ImageLabel")
+local Exit = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+
+--Properties:
+
+hcbb.Name = "hcbb"
+hcbb.Parent = game:GetService("CoreGui")
+hcbb.ResetOnSpawn = false
+
+OpenH.Name = "OpenH"
+OpenH.Parent = hcbb
+OpenH.AnchorPoint = Vector2.new(0.5, 0.5)
+OpenH.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+OpenH.BorderSizePixel = 0
+OpenH.Position = UDim2.new(0.934500635, 0, 0.439525187, 0)
+OpenH.Size = UDim2.new(0.107000001, 0, 0.0790000036, 0)
+OpenH.ZIndex = 2
+OpenH.Font = Enum.Font.GothamMedium
+OpenH.Text = ""
+OpenH.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenH.TextScaled = true
+OpenH.TextSize = 14.000
+OpenH.TextWrapped = true
+
+TextLabel.Parent = OpenH
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.966950119, 0)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Hcbb"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 138, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 255))}
+UIGradient.Parent = OpenH
+
+PenumbraShadow.Name = "PenumbraShadow"
+PenumbraShadow.Parent = OpenH
+PenumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow.BackgroundTransparency = 1.000
+PenumbraShadow.BorderSizePixel = 0
+PenumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow.ZIndex = 0
+PenumbraShadow.Image = "rbxassetid://1316045217"
+PenumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow.ImageTransparency = 0.880
+PenumbraShadow.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow.Name = "UmbraShadow"
+UmbraShadow.Parent = OpenH
+UmbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow.BackgroundTransparency = 1.000
+UmbraShadow.BorderSizePixel = 0
+UmbraShadow.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow.ZIndex = 0
+UmbraShadow.Image = "rbxassetid://1316045217"
+UmbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow.ImageTransparency = 0.860
+UmbraShadow.ScaleType = Enum.ScaleType.Slice
+UmbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+AmbientShadow.Name = "AmbientShadow"
+AmbientShadow.Parent = OpenH
+AmbientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow.BackgroundTransparency = 1.000
+AmbientShadow.BorderSizePixel = 0
+AmbientShadow.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow.ZIndex = 0
+AmbientShadow.Image = "rbxassetid://1316045217"
+AmbientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow.ImageTransparency = 0.800
+AmbientShadow.ScaleType = Enum.ScaleType.Slice
+AmbientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = hcbb
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.5, 0, 1.5, 0)
+MainFrame.Size = UDim2.new(0.551232159, 0, 0.639686704, 0)
+
+AmbientShadow_2.Name = "AmbientShadow"
+AmbientShadow_2.Parent = MainFrame
+AmbientShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_2.BackgroundTransparency = 1.000
+AmbientShadow_2.BorderSizePixel = 0
+AmbientShadow_2.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_2.Size = UDim2.new(1.01176476, 0, 1.02040815, 0)
+AmbientShadow_2.Visible = false
+AmbientShadow_2.ZIndex = 0
+AmbientShadow_2.Image = "rbxassetid://1316045217"
+AmbientShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_2.ImageTransparency = 0.800
+AmbientShadow_2.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_2.Name = "PenumbraShadow"
+PenumbraShadow_2.Parent = MainFrame
+PenumbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_2.BackgroundTransparency = 1.000
+PenumbraShadow_2.BorderSizePixel = 0
+PenumbraShadow_2.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_2.Size = UDim2.new(1.04235291, 0, 1.0734694, 0)
+PenumbraShadow_2.Visible = false
+PenumbraShadow_2.ZIndex = 0
+PenumbraShadow_2.Image = "rbxassetid://1316045217"
+PenumbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_2.ImageTransparency = 0.880
+PenumbraShadow_2.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_2.Name = "UmbraShadow"
+UmbraShadow_2.Parent = MainFrame
+UmbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_2.BackgroundTransparency = 1.000
+UmbraShadow_2.BorderSizePixel = 0
+UmbraShadow_2.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_2.Size = UDim2.new(1.02352941, 0, 1.04081631, 0)
+UmbraShadow_2.Visible = false
+UmbraShadow_2.ZIndex = 0
+UmbraShadow_2.Image = "rbxassetid://1316045217"
+UmbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_2.ImageTransparency = 0.860
+UmbraShadow_2.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Shop.Name = "Shop"
+Shop.Parent = MainFrame
+Shop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shop.BackgroundTransparency = 1.000
+Shop.BorderSizePixel = 0
+Shop.Position = UDim2.new(0.261176467, 0, 0, -3)
+Shop.Size = UDim2.new(0.470588237, 0, 0.20408164, 0)
+Shop.ZIndex = 2
+Shop.Font = Enum.Font.SourceSansBold
+Shop.Text = "Hcbb Scripts"
+Shop.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shop.TextScaled = true
+Shop.TextSize = 14.000
+Shop.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(224, 187, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 255))}
+UIGradient_2.Parent = MainFrame
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.5, 0, 0.618285716, 0)
+ScrollingFrame.Size = UDim2.new(1, 0, 0.763265312, 0)
+ScrollingFrame.ZIndex = 2
+ScrollingFrame.ScrollBarThickness = 5
+
+VIPGamepass.Name = "VIPGamepass"
+VIPGamepass.Parent = ScrollingFrame
+VIPGamepass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VIPGamepass.BorderSizePixel = 0
+VIPGamepass.Position = UDim2.new(0.0799999982, 0, 0.0998999998, 0)
+VIPGamepass.Size = UDim2.new(0, 115, 0, 31)
+VIPGamepass.ZIndex = 2
+VIPGamepass.Font = Enum.Font.SourceSansBold
+VIPGamepass.Text = ""
+VIPGamepass.TextColor3 = Color3.fromRGB(255, 106, 248)
+VIPGamepass.TextScaled = true
+VIPGamepass.TextSize = 14.000
+VIPGamepass.TextWrapped = true
+
+AmbientShadow_3.Name = "AmbientShadow"
+AmbientShadow_3.Parent = VIPGamepass
+AmbientShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_3.BackgroundTransparency = 1.000
+AmbientShadow_3.BorderSizePixel = 0
+AmbientShadow_3.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_3.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow_3.Image = "rbxassetid://1316045217"
+AmbientShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_3.ImageTransparency = 0.950
+AmbientShadow_3.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_3.Name = "PenumbraShadow"
+PenumbraShadow_3.Parent = VIPGamepass
+PenumbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_3.BackgroundTransparency = 1.000
+PenumbraShadow_3.BorderSizePixel = 0
+PenumbraShadow_3.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_3.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_3.Image = "rbxassetid://1316045217"
+PenumbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_3.ImageTransparency = 0.950
+PenumbraShadow_3.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_3.Name = "UmbraShadow"
+UmbraShadow_3.Parent = VIPGamepass
+UmbraShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_3.BackgroundTransparency = 1.000
+UmbraShadow_3.BorderSizePixel = 0
+UmbraShadow_3.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_3.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow_3.Image = "rbxassetid://1316045217"
+UmbraShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_3.ImageTransparency = 0.950
+UmbraShadow_3.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+TextLabel_2.Parent = VIPGamepass
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.0645161271, 0)
+TextLabel_2.Size = UDim2.new(1, 0, 0.935483873, 0)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "N/A"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(218, 218, 1)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = TextLabel_2
+
+UIAspectRatioConstraint.Parent = VIPGamepass
+UIAspectRatioConstraint.AspectRatio = 3.710
+
+Price.Name = "Price"
+Price.Parent = VIPGamepass
+Price.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Price.Position = UDim2.new(0, 5, 0.899999976, 0)
+Price.Size = UDim2.new(0, 66, 0, 18)
+Price.ZIndex = 2
+Price.Font = Enum.Font.SourceSansBold
+Price.Text = ""
+Price.TextColor3 = Color3.fromRGB(255, 255, 255)
+Price.TextSize = 14.000
+
+UICorner.Parent = Price
+
+TextLabel_3.Parent = Price
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 66, 0, 18)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Unavailable"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(99, 133, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(199, 30, 255))}
+UIGradient_4.Parent = Price
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 235, 6)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 141, 26))}
+UIGradient_5.Rotation = 24
+UIGradient_5.Parent = VIPGamepass
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 5, 0, 9)
+UIGridLayout.CellSize = UDim2.new(0, 140, 0, 49)
+
+Gamepass.Name = "Gamepass"
+Gamepass.Parent = ScrollingFrame
+Gamepass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gamepass.BorderSizePixel = 0
+Gamepass.Position = UDim2.new(0.0799999982, 0, 0.0209465157, 0)
+Gamepass.Size = UDim2.new(0, 115, 0, 31)
+Gamepass.ZIndex = 2
+Gamepass.Font = Enum.Font.SourceSansBold
+Gamepass.Text = ""
+Gamepass.TextColor3 = Color3.fromRGB(255, 106, 248)
+Gamepass.TextScaled = true
+Gamepass.TextSize = 14.000
+Gamepass.TextWrapped = true
+
+AmbientShadow_4.Name = "AmbientShadow"
+AmbientShadow_4.Parent = Gamepass
+AmbientShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_4.BackgroundTransparency = 1.000
+AmbientShadow_4.BorderSizePixel = 0
+AmbientShadow_4.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_4.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow_4.Image = "rbxassetid://1316045217"
+AmbientShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_4.ImageTransparency = 0.950
+AmbientShadow_4.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_4.Name = "PenumbraShadow"
+PenumbraShadow_4.Parent = Gamepass
+PenumbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_4.BackgroundTransparency = 1.000
+PenumbraShadow_4.BorderSizePixel = 0
+PenumbraShadow_4.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_4.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_4.Image = "rbxassetid://1316045217"
+PenumbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_4.ImageTransparency = 0.950
+PenumbraShadow_4.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_4.Name = "UmbraShadow"
+UmbraShadow_4.Parent = Gamepass
+UmbraShadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_4.BackgroundTransparency = 1.000
+UmbraShadow_4.BorderSizePixel = 0
+UmbraShadow_4.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_4.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow_4.Image = "rbxassetid://1316045217"
+UmbraShadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_4.ImageTransparency = 0.950
+UmbraShadow_4.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(243, 196, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 236, 255))}
+UIGradient_6.Parent = Gamepass
+
+TextLabel_4.Parent = Gamepass
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.0645161271, 0)
+TextLabel_4.Size = UDim2.new(1, 0, 0.935483873, 0)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Aki"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(192, 255, 162))}
+UIGradient_7.Parent = TextLabel_4
+
+UIAspectRatioConstraint_2.Parent = Gamepass
+UIAspectRatioConstraint_2.AspectRatio = 3.710
+
+Price_2.Name = "Price"
+Price_2.Parent = Gamepass
+Price_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Price_2.Position = UDim2.new(0, 5, 0.899999976, 0)
+Price_2.Size = UDim2.new(0, 66, 0, 18)
+Price_2.ZIndex = 2
+Price_2.Font = Enum.Font.SourceSansBold
+Price_2.Text = "100 R$"
+Price_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Price_2.TextSize = 14.000
+
+UICorner_2.Parent = Price_2
+
+TextLabel_5.Parent = Price_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Size = UDim2.new(0, 66, 0, 18)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "By Aki"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 177, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(117, 255, 235))}
+UIGradient_8.Parent = Price_2
+
+Gamepass_2.Name = "Gamepass"
+Gamepass_2.Parent = ScrollingFrame
+Gamepass_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gamepass_2.BorderSizePixel = 0
+Gamepass_2.Position = UDim2.new(0.0799999982, 0, 0.0209465157, 0)
+Gamepass_2.Size = UDim2.new(0, 115, 0, 31)
+Gamepass_2.ZIndex = 2
+Gamepass_2.Font = Enum.Font.SourceSansBold
+Gamepass_2.Text = ""
+Gamepass_2.TextColor3 = Color3.fromRGB(255, 106, 248)
+Gamepass_2.TextScaled = true
+Gamepass_2.TextSize = 14.000
+Gamepass_2.TextWrapped = true
+
+AmbientShadow_5.Name = "AmbientShadow"
+AmbientShadow_5.Parent = Gamepass_2
+AmbientShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_5.BackgroundTransparency = 1.000
+AmbientShadow_5.BorderSizePixel = 0
+AmbientShadow_5.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_5.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow_5.Image = "rbxassetid://1316045217"
+AmbientShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_5.ImageTransparency = 0.950
+AmbientShadow_5.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_5.Name = "PenumbraShadow"
+PenumbraShadow_5.Parent = Gamepass_2
+PenumbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_5.BackgroundTransparency = 1.000
+PenumbraShadow_5.BorderSizePixel = 0
+PenumbraShadow_5.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_5.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_5.Image = "rbxassetid://1316045217"
+PenumbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_5.ImageTransparency = 0.950
+PenumbraShadow_5.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_5.Name = "UmbraShadow"
+UmbraShadow_5.Parent = Gamepass_2
+UmbraShadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_5.BackgroundTransparency = 1.000
+UmbraShadow_5.BorderSizePixel = 0
+UmbraShadow_5.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_5.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow_5.Image = "rbxassetid://1316045217"
+UmbraShadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_5.ImageTransparency = 0.950
+UmbraShadow_5.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(243, 196, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(58, 236, 255))}
+UIGradient_9.Parent = Gamepass_2
+
+TextLabel_6.Parent = Gamepass_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 0.0645161271, 0)
+TextLabel_6.Size = UDim2.new(1, 0, 0.935483873, 0)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Speed"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(192, 255, 162))}
+UIGradient_10.Parent = TextLabel_6
+
+UIAspectRatioConstraint_3.Parent = Gamepass_2
+UIAspectRatioConstraint_3.AspectRatio = 3.710
+
+Price_3.Name = "Price"
+Price_3.Parent = Gamepass_2
+Price_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Price_3.Position = UDim2.new(0, 5, 0.899999976, 0)
+Price_3.Size = UDim2.new(0, 66, 0, 18)
+Price_3.ZIndex = 2
+Price_3.Font = Enum.Font.SourceSansBold
+Price_3.Text = "100 R$"
+Price_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Price_3.TextSize = 14.000
+
+UICorner_3.Parent = Price_3
+
+TextLabel_7.Parent = Price_3
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Size = UDim2.new(0, 66, 0, 18)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Use Alt"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 177, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(117, 255, 235))}
+UIGradient_11.Parent = Price_3
+
+VIPGamepass_2.Name = "VIPGamepass"
+VIPGamepass_2.Parent = ScrollingFrame
+VIPGamepass_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VIPGamepass_2.BorderSizePixel = 0
+VIPGamepass_2.Position = UDim2.new(0.0799999982, 0, 0.0998999998, 0)
+VIPGamepass_2.Size = UDim2.new(0, 115, 0, 31)
+VIPGamepass_2.ZIndex = 2
+VIPGamepass_2.Font = Enum.Font.SourceSansBold
+VIPGamepass_2.Text = ""
+VIPGamepass_2.TextColor3 = Color3.fromRGB(255, 106, 248)
+VIPGamepass_2.TextScaled = true
+VIPGamepass_2.TextSize = 14.000
+VIPGamepass_2.TextWrapped = true
+
+AmbientShadow_6.Name = "AmbientShadow"
+AmbientShadow_6.Parent = VIPGamepass_2
+AmbientShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_6.BackgroundTransparency = 1.000
+AmbientShadow_6.BorderSizePixel = 0
+AmbientShadow_6.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_6.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow_6.Image = "rbxassetid://1316045217"
+AmbientShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_6.ImageTransparency = 0.950
+AmbientShadow_6.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_6.Name = "PenumbraShadow"
+PenumbraShadow_6.Parent = VIPGamepass_2
+PenumbraShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_6.BackgroundTransparency = 1.000
+PenumbraShadow_6.BorderSizePixel = 0
+PenumbraShadow_6.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_6.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow_6.Image = "rbxassetid://1316045217"
+PenumbraShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_6.ImageTransparency = 0.950
+PenumbraShadow_6.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_6.Name = "UmbraShadow"
+UmbraShadow_6.Parent = VIPGamepass_2
+UmbraShadow_6.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_6.BackgroundTransparency = 1.000
+UmbraShadow_6.BorderSizePixel = 0
+UmbraShadow_6.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_6.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow_6.Image = "rbxassetid://1316045217"
+UmbraShadow_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_6.ImageTransparency = 0.950
+UmbraShadow_6.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_6.SliceCenter = Rect.new(10, 10, 118, 118)
+
+TextLabel_8.Parent = VIPGamepass_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0, 0, 0.0645161271, 0)
+TextLabel_8.Size = UDim2.new(1, 0, 0.935483873, 0)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "N/A"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(218, 218, 1)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Parent = TextLabel_8
+
+UIAspectRatioConstraint_4.Parent = VIPGamepass_2
+UIAspectRatioConstraint_4.AspectRatio = 3.710
+
+Price_4.Name = "Price"
+Price_4.Parent = VIPGamepass_2
+Price_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Price_4.Position = UDim2.new(0, 5, 0.899999976, 0)
+Price_4.Size = UDim2.new(0, 66, 0, 18)
+Price_4.ZIndex = 2
+Price_4.Font = Enum.Font.SourceSansBold
+Price_4.Text = "100 R$"
+Price_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Price_4.TextSize = 14.000
+
+UICorner_4.Parent = Price_4
+
+TextLabel_9.Parent = Price_4
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Size = UDim2.new(0, 66, 0, 18)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Unavailable"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(99, 133, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(199, 30, 255))}
+UIGradient_13.Parent = Price_4
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 235, 6)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 141, 26))}
+UIGradient_14.Rotation = 24
+UIGradient_14.Parent = VIPGamepass_2
+
+TextLabel_10.Name = "©"
+TextLabel_10.Parent = MainFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0120000141, 0, 0.904999912, 0)
+TextLabel_10.Size = UDim2.new(0.987999916, 0, 0.0938775539, 0)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "By Barbaric | Ui Hub"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextTransparency = 0.500
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Line.Name = "Line"
+Line.Parent = MainFrame
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.180000007, 0, 0.200000003, 0)
+Line.Size = UDim2.new(0.647058845, 0, 0.00408163248, 0)
+Line.ZIndex = 2
+
+shadow.Name = "shadow"
+shadow.Parent = MainFrame
+shadow.Active = true
+shadow.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow.BackgroundTransparency = 1.000
+shadow.BorderSizePixel = 0
+shadow.Position = UDim2.new(0.5, 5, 0.5, 5)
+shadow.Size = UDim2.new(1.01647055, 0, 1.02857149, 0)
+shadow.ZIndex = 0
+shadow.Image = "rbxassetid://1316045217"
+shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow.ImageTransparency = 0.600
+shadow.ScaleType = Enum.ScaleType.Slice
+shadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+MainFrame_2.Name = "MainFrame"
+MainFrame_2.Parent = MainFrame
+MainFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame_2.BorderSizePixel = 0
+MainFrame_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame_2.Rotation = 3.000
+MainFrame_2.Size = UDim2.new(1, 0, 1, 0)
+MainFrame_2.ZIndex = 0
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(224, 187, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(94, 255, 255))}
+UIGradient_15.Parent = MainFrame_2
+
+shadow_2.Name = "shadow"
+shadow_2.Parent = MainFrame_2
+shadow_2.Active = true
+shadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_2.BackgroundTransparency = 1.000
+shadow_2.BorderSizePixel = 0
+shadow_2.Position = UDim2.new(0.5, 5, 0.5, 5)
+shadow_2.Size = UDim2.new(1.01647055, 0, 1.02857149, 0)
+shadow_2.ZIndex = 0
+shadow_2.Image = "rbxassetid://1316045217"
+shadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_2.ImageTransparency = 0.600
+shadow_2.ScaleType = Enum.ScaleType.Slice
+shadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Exit.Name = "Exit"
+Exit.Parent = MainFrame
+Exit.AnchorPoint = Vector2.new(0.5, 0.5)
+Exit.BackgroundColor3 = Color3.fromRGB(255, 65, 68)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.975233495, 0, 0.0354887135, 0)
+Exit.Size = UDim2.new(0.0799999982, 0, 0.127000004, 0)
+Exit.ZIndex = 2
+Exit.Font = Enum.Font.FredokaOne
+Exit.Text = ""
+Exit.TextColor3 = Color3.fromRGB(255, 65, 68)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner_5.Parent = Exit
+
+TextLabel_11.Parent = Exit
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0, 0, 1.68660407e-07, 0)
+TextLabel_11.Size = UDim2.new(1.00000012, 0, 1, 0)
+TextLabel_11.ZIndex = 3
+TextLabel_11.Font = Enum.Font.FredokaOne
+TextLabel_11.Text = "X"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+-- Scripts:
+
+local function CRTQWCI_fake_script() -- OpenH.SoundEffect 
+	local script = Instance.new('LocalScript', OpenH)
+
+	function PlaySound( )
+		script.Parent.Click:Play( )
+	end
+	script.Parent.MouseButton1Click:connect(PlaySound)
+end
+coroutine.wrap(CRTQWCI_fake_script)()
+local function WQSDQN_fake_script() -- OpenH.ClickEffect 
+	local script = Instance.new('LocalScript', OpenH)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.093, 0,0.068, 0),"Out","Quart",.5,true) -- di pencet
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.107, 0,0.079, 0),"Out","Quart",.5,true)
+	end)
+end
+coroutine.wrap(WQSDQN_fake_script)()
+local function TLTH_fake_script() -- OpenH.LocalScript 
+	local script = Instance.new('LocalScript', OpenH)
+
+	local b = script.Parent
+	
+	b.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "Out", "Elastic", 1)
+	end)
+end
+coroutine.wrap(TLTH_fake_script)()
+local function JJKXNPC_fake_script() -- OpenH.RotationEffect 
+	local script = Instance.new('LocalScript', OpenH)
+
+	script.Parent.MouseEnter:Connect(function()
+		for i = 0,-5,-5 do
+			wait()
+			script.Parent.Rotation = i
+		end
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		for i = -5,0,5 do
+			wait()
+			script.Parent.Rotation = i
+		end
+	end)
+end
+coroutine.wrap(JJKXNPC_fake_script)()
+local function OGLC_fake_script() -- Gamepass.LocalScript 
+	local script = Instance.new('LocalScript', Gamepass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local set = {
+			AutoAimBat = false;
+			AutoHitBat = true;
+			WindupDist = 67;
+			HitDist = 14;
+			BallEsp = true;
+			YOffset = -8;
+			OnlyHitInBox = true;
+			AimWithMouse = true;
+			showBoundsAndPrediction = true;
+		}
+	
+		local function find_constant(func, sig)
+			local s = "9271YE7DGWDAHSDBSSS"
+			for i,v in ipairs(getconstants(func)) do 
+				if tostring(v):find(sig) then
+					return true
+				end
+			end
+			return false
+		end
+	
+		local theBall = nil;
+		local tweenSpeed = 0
+	
+		local Circle = Drawing.new("Circle")
+		Circle.Visible = true
+		Circle.Thickness = 2
+		Circle.Radius = 10
+		Circle.Color = Color3.new(0,255,0)
+	
+	
+		local PredictionCircle = Drawing.new("Circle")
+		PredictionCircle.Visible = true
+		PredictionCircle.Thickness = 2
+		PredictionCircle.Radius = 30
+		PredictionCircle.Color = Color3.new(255,0,0)
+		local InsidePredictionCircle = Drawing.new("Circle")
+		InsidePredictionCircle.Visible = true
+		InsidePredictionCircle.Thickness = 2
+		InsidePredictionCircle.Filled = true
+		InsidePredictionCircle.Transparency = 0.5
+		InsidePredictionCircle.Radius = 30
+		InsidePredictionCircle.Color = Color3.new(255,0,0)
+	
+		local part = _G.Part or Instance.new("Part")
+		_G.Part = part
+		part.Anchored = true
+		part.Size = Vector3.new(0.5,0.5,0.5)
+		part.BrickColor = BrickColor.new("Really red")
+		part.CanCollide = false
+		part.Transparency = set.showBoundsAndPrediction and 0.35 or 1
+		--part.Parent = workspace
+	
+		local currentPathTable = {}
+		local predictedPos = Vector3.new()
+		local founditthing = false
+	
+		local lastTick = 0
+	
+		local old
+		old = hookmetamethod(game, "__namecall", function(self, ...)
+			if not checkcaller() and getnamecallmethod() == "Clone" and self and self.Parent and self.Parent.Name == "Ball" then
+				if tick() > lastTick + 2 then
+					lastTick = tick()
+					theBall = self.Parent
+				end
+			end
+	
+			return old(self, ...)
+		end)
+	
+		local camera = workspace.CurrentCamera
+		for i,v in ipairs(getgc(true)) do
+			if type(v) == 'function' and islclosure(v) and not (syn and is_synapse_function or Krnl and iskrnlclosure)(v) then
+				if tostring(getfenv(v).script) == "GoFirst" then
+					for a,c in pairs(getupvalues(v)) do
+						if type(c) == 'function' and islclosure(c) and find_constant(c, "NextNumber") and (find_constant(c, "abs") or find_constant(c, "sin")) then
+							setupvalue(v, a, function() return Vector3.new() end)
+						end
+					end
+				end
+			elseif type(v) == 'table' and rawget(v, "GetPos") then
+				local old = v.SetPitchtab
+				v["SetPitchtab"] = function(self, thingy)
+					delay(0.1, function()
+						if not workspace.Ignore:FindFirstChild("BGUI") then
+							return
+						end
+						local borderBox = workspace.Ignore.BGUI.BlackBoarder
+						local closestMag = math.huge
+						local newPos = Vector3.new()
+						for i = 0, 1, 0.01 do
+							local pos = v:GetPos(i, currentPathTable, false, nil, thingy)
+							if pos and pos.p ~= Vector3.new(0,0,0) then
+								local mag = (pos.p - borderBox.Position).Magnitude
+								if mag < closestMag then
+									closestMag = mag
+									newPos = pos.p
+								end
+							end
+						end
+						if newPos ~= Vector3.new() then
+							PredictionCircle.Visible = set.showBoundsAndPrediction
+							InsidePredictionCircle.Visible = set.showBoundsAndPrediction
+							local pos, isInScreen = workspace.CurrentCamera:WorldToViewportPoint(newPos)
+							PredictionCircle.Position = Vector2.new(pos.x, pos.y)
+							InsidePredictionCircle.Position = Vector2.new(pos.x, pos.y)
+	
+							--part.Position = newPos
+							predictedPos = newPos
+						else
+							PredictionCircle.Visible = false
+							InsidePredictionCircle.Visible = false
+						end
+					end)
+					return old(self, thingy) 
+				end
+			end
+		end
+	
+		game.ReplicatedStorage.RESC.SEVREPBALLTHROW.OnClientEvent:connect(function(_, p219)
+			currentPathTable = p219
+		end)
+	
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+		local smoothness = 1
+		local toChange = nil
+		local hasWindedUp = false
+		local hasSwang = false
+		local aiming = false
+	
+		local tween
+		local completedTween
+	
+		function actuallyAim()
+			if theBall ~= nil and theBall.Parent ~= nil then 
+				local toAimAt = theBall.Position
+				if predictedPos and predictedPos ~= Vector3.new() then
+					toAimAt = predictedPos
+				end
+				local ballPos = camera:WorldToScreenPoint(toAimAt + Vector3.new(0,-theBall.Size.Y/2,0))
+				local mousePos = camera:WorldToScreenPoint(mouse.Hit.p)
+				local aimAt = Vector2.new()
+				local normalPos = Vector2.new(ballPos.X, ballPos.Y)
+				local diff
+				if toChange then
+					local cursorV2 = camera:WorldToScreenPoint(toChange.Position + Vector3.new(0, toChange.Size.Y/2, 0))
+					local myMousePos = Vector2.new(mousePos.X, mousePos.Y)
+					local cursorPos = Vector2.new(cursorV2.X, cursorV2.Y)
+	
+					local difference = (myMousePos - cursorPos)
+					normalPos = normalPos + difference + Vector2.new(0, set.YOffset)
+					diff = difference
+				end
+				aimAt = normalPos
+	
+				local shouldAim = false
+				if set.AutoHitBat then
+					local toMag = workspace.Plates.SwingTarget.Position
+					if predictedPos and predictedPos ~= Vector3.new() then
+						toMag = predictedPos
+					end
+					local ballMag = (theBall.Position - toMag).Magnitude
+					if ballMag <= set.WindupDist and not hasWindedUp then
+						hasWindedUp = true
+						mouse1click()  
+					end
+					if hasWindedUp and not hasSwang then
+						local borderBox = workspace.Ignore.BGUI.BlackBoarder
+						local ballPos = camera:WorldToScreenPoint(toAimAt)
+						local BorderPositions = {
+							TopLeft = camera:WorldToScreenPoint(borderBox.Position + Vector3.new(0,borderBox.Size.Y/2 + 0.2 + 0.25,borderBox.Size.X/2 + 0.2+ 0.25)),
+							TopRight = camera:WorldToScreenPoint(borderBox.Position + Vector3.new(0,borderBox.Size.Y/2 + 0.2+ 0.25,-borderBox.Size.X/2 - 0.2 - 0.25)),
+							BottomRight = camera:WorldToScreenPoint(borderBox.Position + Vector3.new(0,-borderBox.Size.Y/2 - 0.2 - 0.25,-borderBox.Size.X/2 - 0.2 - 0.25)),
+							BottomLeft = camera:WorldToScreenPoint(borderBox.Position + Vector3.new(0,-borderBox.Size.Y/2 - 0.2 - 0.25,borderBox.Size.X/2 + 0.2 + 0.25)),
+						}
+	
+						local parts = _G.parts or {
+							TopLeft = Instance.new("Part"),
+							TopRight = Instance.new("Part"),
+							BottomLeft = Instance.new("Part"),
+							BottomRight = Instance.new("Part")
+						}
+						_G.parts = parts
+	
+						for i,v in pairs(parts) do
+							v.Anchored = true
+							v.CanCollide = false
+							v.BrickColor = BrickColor.new("Cyan")
+							v.Size = Vector3.new(0.25,0.25,0.25)
+							v.Transparency = set.showBoundsAndPrediction and 0.1 or 1
+							--v.Parent = workspace
+						end
+	
+						if set.showBoundsAndPrediction then
+							_G.Part.Transparency = 0.35
+						else
+							_G.Part.Transparency = 1
+						end
+	
+						parts.TopLeft.Position = borderBox.Position + Vector3.new(0,borderBox.Size.Y/2 + 0.2 + 0.25,borderBox.Size.X/2 + 0.2 + 0.25)
+						parts.TopRight.Position = borderBox.Position + Vector3.new(0,borderBox.Size.Y/2 + 0.2 + 0.25,-borderBox.Size.X/2 - 0.2 - 0.25)
+						parts.BottomRight.Position = borderBox.Position + Vector3.new(0,-borderBox.Size.Y/2 - 0.2,-borderBox.Size.X/2 - 0.2 - 0.25)
+						parts.BottomLeft.Position = borderBox.Position + Vector3.new(0,-borderBox.Size.Y/2 - 0.2,borderBox.Size.X/2 + 0.2 + 0.25)
+	
+						--TopLeft
+	
+	
+						if not set.OnlyHitInBox or (ballPos.X <= BorderPositions.TopRight.X and ballPos.X >= BorderPositions.TopLeft.X and ballPos.Y <= BorderPositions.BottomRight.Y and ballPos.Y >= BorderPositions.TopRight.Y) then
+							shouldAim = true
+							if ballMag <= set.HitDist then
+								mouse1click()
+							end
+						end
+	
+	
+	
+						hasSwang = true
+	
+						delay(2, function()
+							hasSwang = false
+							hasWindedUp = false
+							theBall = nil
+						end)
+					end
+				end
+	
+				if set.AimWithMouse and not aiming and theBall then
+					aiming = true
+					local CFValue = Instance.new("CFrameValue")
+					CFValue.Value = CFrame.new(mousePos.X, mousePos.Y, 0)
+					local con = true
+					if tweenSpeed ~= 0 then
+						tween = game:GetService("TweenService"):Create(CFValue, TweenInfo.new(tweenSpeed, Enum.EasingStyle.Quad), {Value = CFrame.new(aimAt.X, aimAt.Y, 0)})
+						tween:Play()
+	
+						completedTween = tween.Completed:Connect(function()
+	
+							con = false
+							delay(2, function()
+								aiming = false
+							end)
+						end)
+						theBall.Changed:Connect(function()
+							if theBall and theBall.Parent then
+								tween:Pause()
+	
+								local toAimAt = theBall.Position
+								if predictedPos and predictedPos ~= Vector3.new() then
+									toAimAt = predictedPos
+								end
+								local ballPos = camera:WorldToScreenPoint(toAimAt + Vector3.new(0,-theBall.Size.Y/2,0))
+								local mousePos = camera:WorldToScreenPoint(mouse.Hit.p)
+								local aimAt = Vector2.new()
+								local normalPos = Vector2.new(ballPos.X, ballPos.Y)
+								local diff
+								if toChange then
+									local cursorV2 = camera:WorldToScreenPoint(toChange.Position + Vector3.new(0, toChange.Size.Y/2, 0))
+									local myMousePos = Vector2.new(mousePos.X, mousePos.Y)
+									local cursorPos = Vector2.new(cursorV2.X, cursorV2.Y)
+	
+									local difference = (myMousePos - cursorPos)
+									normalPos = normalPos + difference + Vector2.new(0, set.YOffset)
+									diff = difference
+								end
+								aimAt = normalPos
+	
+								tween = game:GetService("TweenService"):Create(CFValue, TweenInfo.new(tweenSpeed, Enum.EasingStyle.Quad), {Value = CFrame.new(aimAt.X, aimAt.Y, 0)})
+								tween:Play()
+	
+								completedTween:Disconnect()
+								completedTween = tween.Completed:Connect(function()
+									con = false
+									delay(2, function()
+										aiming = false
+									end)
+								end)
+							end
+						end)
+						spawn(function()
+							while con do
+								task.wait()
+								mousemoveabs(CFValue.Value.X, CFValue.Value.Y)
+							end
+						end)
+					else
+						aiming = false
+						mousemoveabs(aimAt.X, aimAt.Y)
+						mousemoverel(1,1)
+					end
+				end
+			end
+		end
+	
+		local specialTable = {}
+		for i,v in ipairs(getgc(true)) do
+			if type(v) == 'table' and rawget(v, "CENT_VECTOR2_1") then
+				specialTable = v
+			end
+		end
+	
+		local Mouse, Backup = game.Players.LocalPlayer:GetMouse();
+		Backup = hookmetamethod(Mouse, "__index", newcclosure(function(self, idx)
+			if not checkcaller() and idx == "X" and theBall then
+				local ballPos = camera:WorldToScreenPoint(theBall.Position)
+				local offset = rawget(specialTable, "CENT_VECTOR2_1")
+	
+				if offset and set.AutoAimBat then
+					return ballPos.X - offset.X 
+				end
+			end;
+			if not checkcaller() and idx == "Y" and theBall then
+				local ballPos = camera:WorldToScreenPoint(theBall.Position)
+				local offset = rawget(specialTable, "CENT_VECTOR2_1")
+				if offset and set.AutoAimBat then
+					return ballPos.Y - offset.Y
+				end
+			end;
+	
+			return Backup(self, idx);
+		end));
+	
+		local function setToChange(self)
+			if self.ClassName == "Part" and self.Name ~= "Shad" and self.Name ~= "Self" and self.Name ~= "HitTracker" then
+				self:GetPropertyChangedSignal("CFrame"):Connect(function()
+					toChange = self
+				end)
+			end
+		end
+		for i,v in ipairs(workspace.Ignore:GetChildren()) do
+			setToChange(v)
+		end
+		workspace.Ignore.ChildAdded:Connect(setToChange)
+	
+		game:GetService("RunService").Heartbeat:connect(function()
+			if theBall == nil or theBall.Parent == nil then 
+				Circle.Visible = false
+			else
+				actuallyAim()
+				Circle.Visible = set.BallEsp
+				local pos, isInScreen = workspace.CurrentCamera:WorldToViewportPoint(theBall.Position)
+				Circle.Position = Vector2.new(pos.x, pos.y)
+			end
+		end)
+	end)
+end
+coroutine.wrap(OGLC_fake_script)()
+local function VGSZ_fake_script() -- Gamepass_2.LocalScript 
+	local script = Instance.new('LocalScript', Gamepass_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local s_rs = game:GetService("RunService")
+		local l_plr = game:GetService("Players").LocalPlayer
+	
+	
+	
+		local l_humrp = l_plr.Character and l_plr.Character:FindFirstChild("HumanoidRootPart")
+		local l_hum = l_plr.Character and l_plr.Character:FindFirstChild("Humanoid")
+	
+		local resp_con = l_plr.CharacterAdded:Connect(function(c) 
+			l_humrp = c:WaitForChild("HumanoidRootPart",3)
+			l_hum = c:WaitForChild("Humanoid",3)
+		end)
+	
+		local function dnec(signal) 
+			local s = {}
+			for _, con in ipairs(getconnections(signal)) do 
+				local func = con.Function
+				if (func and islclosure(func)) then
+					if (not is_synapse_function(func)) then 
+						s[#s+1] = con
+						con:Disable() 
+					end
+				end
+			end
+			return s
+		end
+	
+	
+		local speed_amnt = 5
+	
+		local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/rblx/main/ui-stuff/jeff_2.lua'))()
+		ui:SetColors('streamline')
+	
+	
+	
+		local w = ui:NewWindow('Universal Speed',250,200)
+	
+		local m = w:NewMenu('Speed')
+		local t = m:NewToggle('Toggle Speed')
+		local s = m:NewSlider('Slider',1,50,5)
+	
+		t:SetTooltip("Enable the Speed")
+		s:SetTooltip("Walkspeed Amount")
+	
+		m:NewLabel()
+		m:NewLabel('by Barbaric Scripts')
+	
+		s.OnValueChanged:Connect(function(v) 
+			speed_amnt = v
+		end)
+	
+		do
+			local a,b
+			t.OnToggle:Connect(function(t)
+				if (t) then
+					a = dnec(l_humrp.Changed)
+					b = dnec(l_humrp:GetPropertyChangedSignal("CFrame"))
+	
+					s_rs:BindToRenderStep("speed",2000,function(dt)
+						l_humrp.CFrame += l_hum.MoveDirection*dt*5*speed_amnt
+					end)
+				else
+					s_rs:UnbindFromRenderStep("speed")
+	
+					for i,v in ipairs(a) do 
+						v:Enable()
+					end
+					for i,v in ipairs(b) do 
+						v:Enable()
+					end
+				end
+			end)
+		end
+	
+		ui.Exiting:Connect(function() 
+			for i,v in ipairs(ui:GetAllToggles()) do 
+				if (v:IsEnabled()) then
+					v:Disable()
+				end
+			end
+			resp_con:Disconnect()
+		end)
+	
+		ui:Ready()
+	end)
+end
+coroutine.wrap(VGSZ_fake_script)()
+local function TMYT_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	local b = script.Parent
+	
+	-- exit
+	
+	b.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(0.5, 0,1.5, 0), "Out", "Elastic", 1)
+	end)
+end
+coroutine.wrap(TMYT_fake_script)()
+local function TOCNO_fake_script() -- Exit.ClickEffect 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.073, 0,0.112, 0),"Out","Quad",.1,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.08, 0,0.127, 0),"Out","Quad",.1,true)
+	end)
+end
+coroutine.wrap(TOCNO_fake_script)()
